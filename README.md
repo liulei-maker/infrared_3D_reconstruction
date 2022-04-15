@@ -1,5 +1,5 @@
 # infrared_3D_reconstruction
-<div style="font-size:55px;">光激励红外三维重构目标检测</div><br>
+<div style="font-size:55px">光激励红外三维重构目标检测</div><br>
 此项目是将光激励红外结合深度相机，联合机械臂自动扫查扫查系统，实现自动扫查与三维重构<br>
 <img src="https://user-images.githubusercontent.com/54426524/163543969-5eef0645-95ee-4053-a975-aaa4c35f2fe9.PNG" height="420px">
 <img src="https://user-images.githubusercontent.com/54426524/163543973-1bf3b3b7-81a2-4e2a-b0b4-ae56588ca05e.PNG" height="420px"><br>
