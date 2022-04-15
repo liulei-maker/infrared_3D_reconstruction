@@ -1,8 +1,8 @@
 # infrared_3D_reconstruction
 <font style="font-size:55px">光激励红外三维重构目标检测</font><br>
 此项目是将光激励红外结合深度相机，联合机械臂自动扫查扫查系统，实现自动扫查与三维重构<br>
-![流程](https://user-images.githubusercontent.com/54426524/163543969-5eef0645-95ee-4053-a975-aaa4c35f2fe9.PNG)
-![流程2](https://user-images.githubusercontent.com/54426524/163543973-1bf3b3b7-81a2-4e2a-b0b4-ae56588ca05e.PNG)img{width:100px;height:auto}<br>
+<img src="https://user-images.githubusercontent.com/54426524/163543969-5eef0645-95ee-4053-a975-aaa4c35f2fe9.PNG" width="600px">
+<img src="https://user-images.githubusercontent.com/54426524/163543973-1bf3b3b7-81a2-4e2a-b0b4-ae56588ca05e.PNG" width="600px"><br>
 代码环境：<br>
 + depth camera astra SDK<br>
 + Open3D_v0.10.0<br>
