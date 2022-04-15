@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{addfbbb3-c142-47f3-a2ca-c792cfb21c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serialport">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="reconstructionAlgorithm">
+      <UniqueIdentifier>{56fd59cd-8dc4-48ad-9809-12bdc114e571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reconstructionProcess">
+      <UniqueIdentifier>{cc802cf5-fd7f-4eff-b1ef-a6abcb3b2790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="astra">
+      <UniqueIdentifier>{8e028fc1-7865-452e-9aac-348f2528dd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thermalCamera">
+      <UniqueIdentifier>{f2226d94-21e8-424f-97a2-ebe1b5bd2352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="visualizer">
+      <UniqueIdentifier>{6bca2007-bf8d-4760-a777-82fe93dbe62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open3d">
+      <UniqueIdentifier>{0537e496-4de3-4c28-add5-5a5d42d345c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv">
+      <UniqueIdentifier>{9fa51e0d-9d80-4e3f-bb8d-9a99e8d8a0db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headerfile\SerialPort.h">
+      <Filter>serialport</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\Reconstruction.h">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\RegisterFragments.h">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\RealtimeSystem.h">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\OptimizePoseGraph.h">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\MakeFragments.h">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\IntegrateScene.h">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\Common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\Helpers.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\rainbowTable.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\MagCamera.h">
+      <Filter>thermalCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\MagDevice.h">
+      <Filter>thermalCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\MagService.h">
+      <Filter>thermalCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\AstraCameraD2C.h">
+      <Filter>astra</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\d2cSwapper.h">
+      <Filter>astra</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\Visualizer.h">
+      <Filter>visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\open3dAlgorithm.h">
+      <Filter>open3d</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\CalibrateEyeInHand.h">
+      <Filter>opencv</Filter>
+    </ClInclude>
+    <ClInclude Include="headerfile\AdaptiveThreshold.h">
+      <Filter>opencv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sourcefile\IntegrateScene.cpp">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\MakeFragments.cpp">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\OptimizePoseGraph.cpp">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\RealtimeSystem.cpp">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\RegisterFragments.cpp">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\Reconstruction.cpp">
+      <Filter>reconstructionAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\Common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\Helpers.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\rainbowTable.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>0main</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\SerialPort.cpp">
+      <Filter>serialport</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\MagCamera.cpp">
+      <Filter>thermalCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\MagDevice.cpp">
+      <Filter>thermalCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\MagService.cpp">
+      <Filter>thermalCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\AstraCameraD2C.cpp">
+      <Filter>astra</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\d2cSwapper.cpp">
+      <Filter>astra</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\Visualizer.cpp">
+      <Filter>visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\open3dAlgorithm.cpp">
+      <Filter>open3d</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\CalibrateEyeInHand.cpp">
+      <Filter>opencv</Filter>
+    </ClCompile>
+    <ClCompile Include="sourcefile\AdaptiveThreshold.cpp">
+      <Filter>opencv</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

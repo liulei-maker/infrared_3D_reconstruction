@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{de034449-7e9f-4c37-a37c-ecadd2213ebd}</ProjectGuid>
+    <RootNamespace>reconstruction</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\SDK\Open3D_v0.10.0\include;D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen;D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\glew\include;D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\GLFW\include;D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\fmt\include;D:\SDK\openCV\opencv3416\build\include\opencv2;D:\SDK\openCV\opencv3416\build\include\opencv;D:\SDK\openCV\opencv3416\build\include;D:\SDK\OpenIN2SDK\Samples\samples.old\ThirdParty\d2c\include;D:\SDK\OpenIN2SDK\Samples\samples.old\ThirdParty\OpenNI2\Include;D:\SDK\OpenIN2SDK\Samples\samples.old\ThirdParty\UvcSwapper\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:/SDK/Open3D_v0.10.0/lib;D:\SDK\openCV\opencv3416\build\x64\vc15\lib;D:\SDK\OpenIN2SDK\Samples\samples.old\ThirdParty\OpenNI2\x64-Release;D:\SDK\OpenIN2SDK\Samples\samples.old\ThirdParty\d2c\lib\win64\release;D:\SDK\OpenIN2SDK\Samples\samples.old\ThirdParty\UvcSwapper\x64-Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>..\reconstruction\headerfile;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Open3D.lib;opengl32.lib;glu32.lib;glew.lib;glfw3.lib;turbojpeg-static.lib;jsoncpp.lib;png.lib;zlib.lib;tinyfiledialogs.lib;tinyobjloader.lib;qhullcpp.lib;qhullstatic_r.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opencv_world3416.lib;UVC-Swapper.lib;OpenNI2.lib;d2c.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="headerfile\AdaptiveThreshold.h" />
+    <ClInclude Include="headerfile\AstraCameraD2C.h" />
+    <ClInclude Include="headerfile\CalibrateEyeInHand.h" />
+    <ClInclude Include="headerfile\Common.h" />
+    <ClInclude Include="headerfile\d2cSwapper.h" />
+    <ClInclude Include="headerfile\Helpers.h" />
+    <ClInclude Include="headerfile\IntegrateScene.h" />
+    <ClInclude Include="headerfile\MagCamera.h" />
+    <ClInclude Include="headerfile\MagDevice.h" />
+    <ClInclude Include="headerfile\MagService.h" />
+    <ClInclude Include="headerfile\MakeFragments.h" />
+    <ClInclude Include="headerfile\open3dAlgorithm.h" />
+    <ClInclude Include="headerfile\OptimizePoseGraph.h" />
+    <ClInclude Include="headerfile\rainbowTable.h" />
+    <ClInclude Include="headerfile\RealtimeSystem.h" />
+    <ClInclude Include="headerfile\RegisterFragments.h" />
+    <ClInclude Include="headerfile\SerialPort.h" />
+    <ClInclude Include="headerfile\Reconstruction.h" />
+    <ClInclude Include="headerfile\Visualizer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="sourcefile\AdaptiveThreshold.cpp" />
+    <ClCompile Include="sourcefile\AstraCameraD2C.cpp" />
+    <ClCompile Include="sourcefile\CalibrateEyeInHand.cpp" />
+    <ClCompile Include="sourcefile\Common.cpp" />
+    <ClCompile Include="sourcefile\d2cSwapper.cpp" />
+    <ClCompile Include="sourcefile\Helpers.cpp" />
+    <ClCompile Include="sourcefile\IntegrateScene.cpp" />
+    <ClCompile Include="sourcefile\MagCamera.cpp" />
+    <ClCompile Include="sourcefile\MagDevice.cpp" />
+    <ClCompile Include="sourcefile\MagService.cpp" />
+    <ClCompile Include="sourcefile\MakeFragments.cpp" />
+    <ClCompile Include="sourcefile\open3dAlgorithm.cpp" />
+    <ClCompile Include="sourcefile\OptimizePoseGraph.cpp" />
+    <ClCompile Include="sourcefile\rainbowTable.cpp" />
+    <ClCompile Include="sourcefile\RealtimeSystem.cpp" />
+    <ClCompile Include="sourcefile\RegisterFragments.cpp" />
+    <ClCompile Include="sourcefile\SerialPort.cpp" />
+    <ClCompile Include="sourcefile\Reconstruction.cpp" />
+    <ClCompile Include="sourcefile\Visualizer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

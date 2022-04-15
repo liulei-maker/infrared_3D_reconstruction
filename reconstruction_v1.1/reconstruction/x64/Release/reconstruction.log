@@ -1,0 +1,152 @@
+﻿  main.cpp
+C:\Users\QingYan\Desktop\calibrateHandEye\reconstruction\main.cpp(68,66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\QingYan\Desktop\calibrateHandEye\reconstruction\main.cpp(69,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\QingYan\Desktop\calibrateHandEye\reconstruction\main.cpp(102,29): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\QingYan\Desktop\calibrateHandEye\reconstruction\main.cpp(108,19): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+C:\Users\QingYan\Desktop\calibrateHandEye\reconstruction\main.cpp(109,19): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+C:\Users\QingYan\Desktop\calibrateHandEye\reconstruction\main.cpp(117,29): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\QingYan\Desktop\calibrateHandEye\reconstruction\main.cpp(123,19): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+C:\Users\QingYan\Desktop\calibrateHandEye\reconstruction\main.cpp(124,19): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+C:\Users\QingYan\Desktop\calibrateHandEye\reconstruction\main.cpp(149,57): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\util\Meta.h(349,2): warning C4996: 'std::not_equal_to<int>::result_type': warning STL4007: Many result_type typedefs and all argument_type, first_argument_type, and second_argument_type typedefs are deprecated in C++17. You can define _SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\util\Meta.h(365): message : 查看对正在编译的 类 模板 实例化“Eigen::internal::binary_result_of_select<Func,ArgType0,ArgType1,8>”的引用
+          with
+          [
+              Func=std::not_equal_to<int>,
+              ArgType0=const int &,
+              ArgType1=const int &
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\CwiseBinaryOp.h(38): message : 查看对正在编译的 类 模板 实例化“Eigen::internal::result_of<BinaryOp (const int &,const int &)>”的引用
+          with
+          [
+              BinaryOp=std::not_equal_to<int>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\CwiseBinaryOp.h(149): message : 查看对正在编译的 类 模板 实例化“Eigen::internal::traits<Derived>”的引用
+          with
+          [
+              Derived=Eigen::CwiseBinaryOp<std::not_equal_to<int>,const Eigen::Matrix<int,3,1,0,3,1>,const Eigen::Matrix<int,3,1,0,3,1>>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\CwiseBinaryOp.h(82): message : 查看对正在编译的 类 模板 实例化“Eigen::CwiseBinaryOpImpl<BinaryOp,LhsType,RhsType,Eigen::internal::cwise_promote_storage_type<Eigen::internal::traits<Derived>::StorageKind,Eigen::internal::traits<Derived>::StorageKind,BinaryOp>::ret>”的引用
+          with
+          [
+              BinaryOp=std::not_equal_to<int>,
+              LhsType=Eigen::Matrix<int,3,1,0,3,1>,
+              RhsType=Eigen::Matrix<int,3,1,0,3,1>,
+              Derived=Eigen::Matrix<int,3,1,0,3,1>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\MatrixBase.h(297): message : 查看对正在编译的 类 模板 实例化“Eigen::CwiseBinaryOp<std::not_equal_to<int>,const Derived,const Derived>”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,3,1,0,3,1>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\Geometry\VoxelGrid.h(269): message : 查看对正在编译的函数 模板 实例化“bool Eigen::MatrixBase<Derived>::operator !=<Derived>(const Eigen::MatrixBase<Derived> &) const”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,3,1,0,3,1>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\Geometry\VoxelGrid.h(269): message : 查看对正在编译的函数 模板 实例化“bool Eigen::MatrixBase<Derived>::operator !=<Derived>(const Eigen::MatrixBase<Derived> &) const”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,3,1,0,3,1>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\util\Meta.h(349,2): warning C4996: 'std::equal_to<int>::result_type': warning STL4007: Many result_type typedefs and all argument_type, first_argument_type, and second_argument_type typedefs are deprecated in C++17. You can define _SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\util\Meta.h(365): message : 查看对正在编译的 类 模板 实例化“Eigen::internal::binary_result_of_select<Func,ArgType0,ArgType1,8>”的引用
+          with
+          [
+              Func=std::equal_to<int>,
+              ArgType0=const int &,
+              ArgType1=const int &
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\CwiseBinaryOp.h(38): message : 查看对正在编译的 类 模板 实例化“Eigen::internal::result_of<BinaryOp (const int &,const int &)>”的引用
+          with
+          [
+              BinaryOp=std::equal_to<int>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\CwiseBinaryOp.h(149): message : 查看对正在编译的 类 模板 实例化“Eigen::internal::traits<Derived>”的引用
+          with
+          [
+              Derived=Eigen::CwiseBinaryOp<std::equal_to<int>,const Eigen::Matrix<int,3,1,0,3,1>,const Eigen::Matrix<int,3,1,0,3,1>>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\CwiseBinaryOp.h(82): message : 查看对正在编译的 类 模板 实例化“Eigen::CwiseBinaryOpImpl<BinaryOp,LhsType,RhsType,Eigen::internal::cwise_promote_storage_type<Eigen::internal::traits<Derived>::StorageKind,Eigen::internal::traits<Derived>::StorageKind,BinaryOp>::ret>”的引用
+          with
+          [
+              BinaryOp=std::equal_to<int>,
+              LhsType=Eigen::Matrix<int,3,1,0,3,1>,
+              RhsType=Eigen::Matrix<int,3,1,0,3,1>,
+              Derived=Eigen::Matrix<int,3,1,0,3,1>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\3rdparty\Eigen\Eigen\src\Core\MatrixBase.h(289): message : 查看对正在编译的 类 模板 实例化“Eigen::CwiseBinaryOp<std::equal_to<int>,const Derived,const Derived>”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,3,1,0,3,1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\xstddef(84): message : 查看对正在编译的函数 模板 实例化“bool Eigen::MatrixBase<Derived>::operator ==<Derived>(const Eigen::MatrixBase<Derived> &) const”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,3,1,0,3,1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\xstddef(84): message : 查看对正在编译的函数 模板 实例化“bool Eigen::MatrixBase<Derived>::operator ==<Derived>(const Eigen::MatrixBase<Derived> &) const”的引用
+          with
+          [
+              Derived=Eigen::Matrix<int,3,1,0,3,1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\xstddef(83): message : 在编译 类 模板 成员函数“bool std::equal_to<Eigen::Vector3i>::operator ()(const _Ty &,const _Ty &) const”时
+          with
+          [
+              _Ty=Eigen::Vector3i
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\xhash(144): message : 查看对正在编译的函数 模板 实例化“bool std::equal_to<Eigen::Vector3i>::operator ()(const _Ty &,const _Ty &) const”的引用
+          with
+          [
+              _Ty=Eigen::Vector3i
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\xmemory(1356): message : 查看对正在编译的 类 模板 实例化“std::equal_to<Eigen::Vector3i>”的引用
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\xmemory(1356): message : 查看指向正在编译的变量模板“const bool is_empty_v<std::equal_to<Eigen::Matrix<int,3,1,0,3,1> > >”的引用
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\unordered_map(30): message : 查看对正在编译的 类 模板 实例化“std::_Uhash_compare<_Kty,_Hasher,_Keyeq>”的引用
+          with
+          [
+              _Kty=Eigen::Vector3i,
+              _Hasher=open3d::utility::hash_eigen::hash<Eigen::Vector3i>,
+              _Keyeq=std::equal_to<Eigen::Vector3i>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\xhash(321): message : 查看对正在编译的 类 模板 实例化“std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>”的引用
+          with
+          [
+              _Kty=Eigen::Vector3i,
+              _Ty=open3d::geometry::Voxel,
+              _Hasher=open3d::utility::hash_eigen::hash<Eigen::Vector3i>,
+              _Keyeq=std::equal_to<Eigen::Vector3i>,
+              _Alloc=std::allocator<std::pair<const Eigen::Vector3i,open3d::geometry::Voxel>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\unordered_map(67): message : 查看对正在编译的 类 模板 实例化“std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>”的引用
+          with
+          [
+              _Kty=Eigen::Vector3i,
+              _Ty=open3d::geometry::Voxel,
+              _Hasher=open3d::utility::hash_eigen::hash<Eigen::Vector3i>,
+              _Keyeq=std::equal_to<Eigen::Vector3i>,
+              _Alloc=std::allocator<std::pair<const Eigen::Vector3i,open3d::geometry::Voxel>>
+          ]
+D:\SDK\Open3D_v0.10.0\include\Open3D\Geometry\VoxelGrid.h(256): message : 查看对正在编译的 类 模板 实例化“std::unordered_map<Eigen::Vector3i,open3d::geometry::Voxel,open3d::utility::hash_eigen::hash<Eigen::Vector3i>,std::equal_to<Eigen::Vector3i>,std::allocator<std::pair<const Eigen::Vector3i,open3d::geometry::Voxel>>>”的引用
+  正在生成代码
+  1 of 3748 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    140 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  reconstruction.vcxproj -> C:\Users\QingYan\Desktop\calibrateHandEye\x64\Release\reconstruction.exe
